@@ -1,0 +1,33 @@
+.tags-container{
+}
+
+.ant-tag {
+    /* display: inline !important; */
+    font-size: 10px !important;
+    width: 22px !important;
+    height: 18px !important;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+    padding: 0px 0px;
+    height: 18px;
+    width: 25px;
+    text-align: center;
+    font-size: 10px;
+    /* padding: 3px !important; */
+    
+}
+
+.slick-next {
+    right: -18px;
+}
+
+.slick-prev {
+    left: -18px;
+    padding-right: 10px !important;
+}
+
+.slider-container {
+    width: 86%;
+    text-align: center;
+    margin: 0 auto;
+}

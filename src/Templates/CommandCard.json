@@ -1,0 +1,87 @@
+{
+    "rows": [
+        [
+            {
+                "initialColumn": 1,
+                "finalColumn": 25,
+                "component": null,
+                "componentName": "StatusBar",
+                "prop": "status",
+                "import": "component",
+                "attributes": {
+                    "status": "StatusYellow"
+                }
+            }
+        ],
+        [
+            {
+                "initialColumn": 2,
+                "finalColumn": 17,
+                "component": null,
+                "componentName": "h4",
+                "content": "Turn lights on",
+                "prop": "command",
+                "import": false,
+                "attributes": {
+                    "style": {
+                        "fontWeight": "bold",
+                        "paddingBottom": "0px",
+                        "marginBlockEnd": "0em",
+                        "color": "rgb(77, 77, 77)"
+                    }
+                }
+            },
+            {
+                "initialColumn": 18,
+                "finalColumn": 20,
+                "component": null,
+                "componentName": "h4",
+                "content": "Accuray",
+                "prop": "title",
+                "import": false,
+                "attributes": {
+                    "style": {
+                        "paddingBottom": "0px",
+                        "marginBlockEnd": "0em",
+                        "color": "rgb(77, 77, 77)"
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "initialColumn": 22,
+                "finalColumn": 24,
+                "component": null,
+                "componentName": "h5",
+                "content": "40%",
+                "prop": "accuracy",
+                "import": false,
+                "attributes": {
+                    "style": {
+                        "paddingBottom": "0px",
+                        "marginBlockEnd": "0em",
+                        "color": "rgb(77, 77, 77)"
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "initialColumn": 2,
+                "finalColumn": 24,
+                "component": null,
+                "componentName": "TagList",
+                "content": "",
+                "prop": "languages",
+                "import": "component",
+                "attributes": {
+                    "languages": ["EN", "PT", "KO", "HI", "EN", "PT", "KO", "HI", "EN", "PT", "KO", "HI"]
+                }
+            }
+        ]
+    ],
+    "styles": {
+        "backgroundColor": "rgb(218, 218, 218)"
+    }
+}

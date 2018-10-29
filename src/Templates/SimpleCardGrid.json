@@ -1,0 +1,53 @@
+{
+    "rows" :[
+        {
+            "i": "a",
+            "x": 8,
+            "y": 2,
+            "w": 4,
+            "h": 2,
+            "static": true,
+            "componentName": "Icon",
+            "import": "antd",
+            "prop": "type",
+            "attributes": {
+                "className": "SimpleCardIcon",
+                "type": "database",
+                "theme": "filled"
+            }
+        }, 
+        {
+            "i": "c",
+            "x": 1,
+            "y": 1,
+            "w": 6,
+            "h": 1,
+            "static": true,
+            "componentName": "h4",
+            "import": false,
+            "content": "info",
+            "prop": "info",
+            "attributes": {
+                "className": "information"
+            }
+        },
+        {
+            "i": "b",
+            "x": 1,
+            "y": 1,
+            "w": 6,
+            "h": 1,
+            "static": true,
+            "componentName": "h4",
+            "import": false,
+            "content": "title",
+            "prop": "title",
+            "attributes": {
+                "className": "title"
+            }
+        }
+    ],
+    "styles": {
+        "backgroundImage": "linear-gradient(rgb(170, 181, 231), rgb(142, 148, 231))"
+    }
+}

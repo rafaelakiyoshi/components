@@ -1,0 +1,61 @@
+.LoginContainer {
+    background-image: url('https://www.rxwallpaper.site/wp-content/uploads/purple-blue-gradient-background-new-graphicpanic.jpg');
+   /* Full height */
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 17%;
+   padding-block-start: 12.5%;
+   /* display:flex; */
+   flex-flow :row wrap;
+   justify-content: space-around;
+   align-items: stretch;
+}
+
+.CardLogin{
+    width: 20%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 9px;
+    flex: 0 1 48%;
+    /* display: flex; */
+}
+
+.login-form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lockIcon {
+    color: #40a9ff;
+    font-weight: bold;
+    padding-top: 12px;
+    font-size: 18px;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(222, 228, 236);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.iconContainer {
+    padding: 35px;
+}
+
+.loginTitle{
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.RegisterNow{ 
+    background-color: rgb(222, 228, 236);
+    border-radius: 0px 0px 9px 9px;
+    font-size: 13px;
+    text-align: center;
+    /* align-self: flex-end;
+    flex: 1 1 auto; */
+    width: 100%;
+}

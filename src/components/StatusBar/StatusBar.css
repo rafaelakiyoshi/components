@@ -1,0 +1,65 @@
+.StatusRed {
+    background-color: rgba(243, 81, 81, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+    height: 10px;
+    width: 100%;
+}
+
+.StatusRedDown {
+    background-color: rgba(243, 81, 81, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+    height: 10px;
+    width: 100%;
+}
+
+.StatusYellow {
+    background-color: rgba(252, 237, 35, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+    height: 10px;
+    width: 100%;
+}
+
+.StatusYellowDown {
+    background-color: rgba(252, 237, 35, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+    height: 10px;
+    width: 100%;
+}
+
+.StatusGreen {
+    background-color: rgba(124, 224, 99, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+    height: 10px;
+    width: 100%;
+}
+
+.StatusGreenDown {
+    background-color: rgba(124, 224, 99, 0.89);
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+    height: 10px;
+    width: 100%;
+}

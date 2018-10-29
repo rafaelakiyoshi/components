@@ -1,0 +1,112 @@
+{
+    "rows": [
+        {
+            "i": "a",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1,
+            "static": true,
+            "componentName": "StatusBar",
+            "prop": "status",
+            "import": "component",
+            "attributes": {
+                "position": "up",
+                "status": "StatusYellow"
+            }
+        },
+        {
+            "i": "b",
+            "x": 0.5,
+            "y": 1.5,
+            "w": 7,
+            "h": 1,
+            "static": true,
+            "componentName": "h4",
+            "content": "Turn lights on",
+            "prop": "command",
+            "import": false,
+            "attributes": {
+                "className": "commandCardTitle"
+            }
+        },
+        {
+            "i": "c",
+            "x": 7.5,
+            "y": 1.5,
+            "w": 4,
+            "h": 1.4,
+            "static": true,
+            "componentName": "h4",
+            "content": "Accuray",
+            "prop": "title",
+            "import": false,
+            "attributes": {
+                "className": "commandCardInfo"
+            }
+        },
+        {
+            "i": "d",
+            "x": 9.5,
+            "y": 2.9,
+            "w": 2,
+            "h": 2,
+            "static": true,
+            "componentName": "h4",
+            "content": "40%",
+            "prop": "accuracy",
+            "import": false,
+            "attributes": {
+                "className": "commandCardInfo"
+            }
+        },
+        {
+            "i": "e",
+            "x": 0.5,
+            "y": 5,
+            "w": 7,
+            "h": 1.5,
+            "static": true,
+            "componentName": "TagList",
+            "content": "",
+            "prop": "languages",
+            "import": "component",
+            "attributes": {
+                "languages": ["EN", "PT", "KO", "HI", "EN", "PT", "KO", "HI", "EN", "PT", "KO", "HI"]
+            }
+        },
+        {
+            "i": "f",
+            "x": 8,
+            "y": 5.5,
+            "w": 1,
+            "h": 0.5,
+            "static": true,
+            "componentName": "a",
+            "content": "clean",
+            "prop": "",
+            "import": false,
+            "attributes": {
+                "className": "commandCardActions"
+            }
+        },
+        {
+            "i": "g",
+            "x": 10,
+            "y": 5.5,
+            "w": 1,
+            "h": 0.5,
+            "static": true,
+            "componentName": "a",
+            "content": "more",
+            "prop": "",
+            "import": false,
+            "attributes": {
+                "className": "commandCardActions"
+            }
+        }
+    ],
+    "styles": {
+        "backgroundColor": "rgb(218, 218, 218)"
+    }
+}

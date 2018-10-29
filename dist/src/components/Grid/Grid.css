@@ -1,0 +1,22 @@
+.generic-card {
+    width: 220px;
+    border-radius: 5px;
+    border: 3px !important;
+}
+    
+.generic-card-container{
+    display: inline-block;
+    padding: 10px;
+}
+
+.ant-card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.CommandCardContainer {
+    padding: 10px;
+    display: inline-block;
+}

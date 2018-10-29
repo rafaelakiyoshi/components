@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Option 1",
+        "route": "/option1",
+        "icon": "pie-chart",
+        "children": false
+    },
+    {
+        "id": 2,
+        "name": "Users",
+        "route": "/users",
+        "icon": "user",
+        "children": [
+            {
+                "id": 2.1,
+                "name": "Tom",
+                "route": "/users/tom"
+            },
+            {
+                "id": 2.2,
+                "name": "Bill",
+                "route": "/users/bill"
+            },
+            {
+                "id": 2.3,
+                "name": "Alex",
+                "route": "/users/alex"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Option 2",
+        "route": "/option2",
+        "icon": "desktop",
+        "children": false
+    },
+    {
+        "id": 4,
+        "name": "Option 3",
+        "route": "/option3",
+        "icon": "file",
+        "children": false
+    }
+
+]

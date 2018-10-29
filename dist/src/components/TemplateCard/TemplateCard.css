@@ -1,0 +1,61 @@
+.generic-card {
+    width: 220px;
+    border-radius: 5px;
+    border: 3px !important;
+}
+    
+.generic-card-container {
+    display: inline-block;
+    padding: 10px;
+}
+
+.ant-card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.CommandCardContainer {
+    padding: 10px;
+    display: inline-block;
+}
+
+.SimpleCardIcon {
+    margin-top: -25px;
+    padding-top: 8px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+.information {
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    color: white;
+}
+
+.commandCardTitle {
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-block-end: 0em;
+    color: rgb(85, 84, 84);
+}
+
+.commandCardInfo{
+    padding-bottom: 0px;
+    margin-block-end: 0em;
+    color: rgb(85, 84, 84);
+    text-align: center;
+    font-size: 14px;
+}
+
+.commandCardActions {
+    font-size: 10px;
+    color: rgb(154, 173, 190);
+
+}

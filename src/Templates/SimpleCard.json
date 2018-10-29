@@ -1,0 +1,62 @@
+{
+    "rows": [
+        [
+            {
+                "initialColumn": 4,
+                "finalColumn": 8,
+                "component": null,
+                "componentName": "h4",
+                "content": "title",
+                "prop": "title",
+                "import": false,
+                "attributes": {
+                    "style": {
+                        "color": "white",
+                        "marginTop": "20px"
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "initialColumn": 4,
+                "finalColumn": 8,
+                "component": null,
+                "componentName": "h4",
+                "import": false,
+                "content": "info",
+                "prop": "info",
+                "attributes": {
+                    "style": {
+                        "color": "white",
+                        "fontWeight": "bold"
+                    }
+                }
+            },
+            {
+                "initialColumn": 18,
+                "finalColumn": 21,
+                "component": null,
+                "componentName": "Icon",
+                "prop": "type",
+                "pushOn": "attributes type",
+                "import": true,
+                "attributes": {
+                    "style": {
+                        "marginTop": "-25px",
+                        "paddingTop": "8px",
+                        "fontWeight": "bold",
+                        "color": "antiquewhite",
+                        "fontSize": "40px"
+                    },
+                    "className": "SimpleCardIcon",
+                    "type": "database",
+                    "theme": "filled"
+                }
+            }
+        ]
+    ],
+    "styles": {
+        "backgroundImage": "linear-gradient(rgb(170, 181, 231), rgb(142, 148, 231))"
+    }
+}
